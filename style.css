@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    left: 50%;
+    transform: translateX(50%);
+    margin-top: 10%;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: .2rem solid black;
+}
+.button-add-task{
+    margin: 1.5rem 0;
+}   
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+.tasks{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    margin: .5rem;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+    padding: 1rem;
+    border: 2px solid black;
+
+}
+.task p{
+    font-size: 2rem;
+    margin: .5rem;
+}
+.button{
+    padding: .5rem 2rem;
+    font-size: 1rem;
+}
+.input-add-task{
+    font-size: 2rem;
+    padding: 1rem 5rem;
+}
+.set-add-task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-wrap: nowrap;
+    border: .2rem solid black;
+}
+.datatime-picker-add-task{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1.5rem 1rem;
+}
